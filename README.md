@@ -8,7 +8,7 @@
 - samtools (verified with version 1.16) 
 - bwa (verified with version 2020_03_19) 
 - fachrlens (as part of the jgbutils by James G. Baldwin-Brown)
-  -https://github.com/jgbaldwinbrown/jgbutils/tree/master/Baldwin-Brown_2020_Ccol_genome
+  - https://github.com/jgbaldwinbrown/jgbutils/tree/master/Baldwin-Brown_2020_Ccol_genome
 
 ### Download and installation
 
