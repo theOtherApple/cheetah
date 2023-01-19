@@ -27,8 +27,8 @@ path/where/directories/are/stored/ 8
 
 After the header, there should be one line per sequence to be run of tab separated variables. Each line after the header should include the line's name, reference genome, forward read, and reverse read in that order and separated by tabs.
 ```
-iso1	iso1_reference.fasta	iso1_forward.fasta	iso1_reverse.fasta
-a4	a4_reference.fasta	a4_forward.fasta	a4_reverse.fasta
+iso1	iso1_reference.fasta	iso1_forward.fastq	iso1_reverse.fastq
+a4	a4_reference.fasta	a4_forward.fastq	a4_reverse.fastq
 ```
 
 There must be one blank line at the end of the configuration file.
