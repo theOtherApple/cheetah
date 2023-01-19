@@ -15,15 +15,21 @@
 ## Usage
 ### Quick start
 The cheetah script runs within the terminal. Simply run the cheetah bash script along with a configuration text file and number of threads to be used as arguments.
->bash cheetah.sh	cheetah_cfg_1.txt 8
+```sh
+bash cheetah.sh	cheetah_cfg_1.txt 8
+```
 
 The configuration file is composed of 1 header line and 1 line per sample you want to use cheetah on.
 The header line contains the path to where you want all intermediate output files to be located. Directories to contain all output files will be automatically created.
->path/where/directories/are/stored/ 8
+```sh
+path/where/directories/are/stored/ 8
+```
 
 After the header, there should be one line per sequence to be run of tab separated variables. Each line after the header should include the line's name, reference genome, forward read, and reverse read in that order and separated by tabs.
->iso1	iso1_reference.fasta	iso1_forward.fasta	iso1_reverse.fasta
->a4	a4_reference.fasta	a4_forward.fasta	a4_reverse.fasta
+```
+iso1	iso1_reference.fasta	iso1_forward.fasta	iso1_reverse.fasta
+a4	a4_reference.fasta	a4_forward.fasta	a4_reverse.fasta
+```
 
 There must be one blank line at the end of the configuration file.
 
