@@ -1,6 +1,5 @@
 # cheetah
 ### A genomic pipeline for finding sliding window coverage and coverage at each basepair.
-Primarily 
 
 ## Getting started
 ### Dependencies
@@ -8,7 +7,8 @@ Primarily
 - bedtools (verified with version 2.28.0)
 - samtools (verified with version 1.16) 
 - bwa (verified with version 2020_03_19) 
-- fachrlens 
+- fachrlens (as part of the jgbutils by James G. Baldwin-Brown)
+  -https://github.com/jgbaldwinbrown/jgbutils/tree/master/Baldwin-Brown_2020_Ccol_genome
 
 ### Download and installation
 
@@ -22,7 +22,8 @@ The header line contains the path to where you want all intermediate output file
 >path/where/directories/are/stored/ 8
 
 After the header, there should be one line per sequence to be run of tab separated variables. Each line after the header should include the line's name, reference genome, forward read, and reverse read in that order and separated by tabs.
->iso1	reference.fasta	forward.fasta	reverse.fasta
+>iso1	iso1_reference.fasta	iso1_forward.fasta	iso1_reverse.fasta
+>a4	a4_reference.fasta	a4_forward.fasta	a4_reverse.fasta
 
 There must be one blank line at the end of the configuration file.
 
@@ -30,7 +31,4 @@ There must be one blank line at the end of the configuration file.
 
 
 ## Credits
-
-
-## License
-
+Pipeline intially developed by Mikal Peterson with assitance of James G. Baldwin-Brown. Special thanks to the Phadnis lab at the University of Utah.
